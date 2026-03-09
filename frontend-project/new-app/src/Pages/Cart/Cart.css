@@ -1,0 +1,131 @@
+.cart{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right:100px;
+    text-align: center;
+
+}
+
+.cart-items-title{
+    display: grid;
+    grid-template-columns: repeat(6,2fr);
+    align-items: center;
+    color: gray;
+    font-size: 17px;
+}
+
+.card-img{
+    margin-left: 70px;
+}
+
+.cart-items-item{
+    margin: 10px 0px;
+    color: black;
+}
+
+.cart-items-item img{
+    width: 50px;
+}
+.cart hr{
+    height: 1px;
+    background-color: #e2e2e2;
+    border: none;
+}
+
+.cart-items-item .cross{
+    cursor: pointer;
+}
+
+
+
+.cart-bottom{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: max(12vw,30px);
+   
+}
+
+.cart-total{
+    margin-top: 100px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    width: 420px;
+    font-weight: 200;
+}
+.cart-total h2{
+    margin-left: -12px;
+}
+
+.cart-total-details{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    color: #555;   
+}
+
+.cart-total hr{
+    margin: 10px 0px;
+}
+
+.cart-bottom button{
+    width: 200px;
+    position: relative;
+    padding: 10px;
+    background-color: orange;
+    margin-top: 10px;
+    color: white;
+    margin-left: -250px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.cart-promocode{
+    
+    position: relative; 
+    bottom: 230px;
+    right:  -100px;
+    font-size: 15px;
+    text-indent: 400px;
+}
+
+.cart-promocode p{
+    margin-right: 15px;
+    padding: 10px;
+    font-size: 20px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.cart-promocode-input input{
+    width: 260px;
+    padding: 10px;
+    background-color: #eaeaea;
+    border: none;
+
+}
+
+.cart-promocode-input button{
+    padding: 8px;
+    width: 150px;
+    border: none;
+    background-color:#555;
+    color: white;
+}
+
+.cart-promocode-input img{
+    margin-top: 20px;
+    width: 300px;
+    height: 150px;
+}

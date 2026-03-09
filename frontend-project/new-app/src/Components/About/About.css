@@ -1,0 +1,23 @@
+.About{
+    display: flex;
+    gap: 50px;
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 200px;
+
+}
+
+.About img{
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.About h2{
+    padding: 18px;
+}
+
+.About p{
+    width: 400px;
+
+}

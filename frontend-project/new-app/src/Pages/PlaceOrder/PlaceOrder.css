@@ -1,0 +1,115 @@
+.place-order{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+/* .place-order-left{
+    width: 100%;
+    max-width: max(30%,500px);
+
+} */
+
+.place-order .title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.place-order-left input{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline-color: orange;
+}
+.place-order .multi-fields{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.multi-fields-right{
+    width: 100%;
+    max-width: max(40%,500px);
+
+}
+
+.place-order button{
+    margin-top: 17px;
+    margin-left: -3px;
+    padding: 7px;
+    width: 190px;
+    cursor: pointer;
+    
+}
+
+
+
+.cart-bottom-change{
+    margin-top: 70px;   
+    width: 290px;
+    background-color: white;
+    margin-right: 150px;
+    text-align: justify;
+    
+   
+}
+
+
+
+.cart-total-details-change p{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    right: 8px;
+}
+
+
+.cart-fee{
+    margin-right: -17px;
+} 
+
+
+
+.cart-total-change{
+    margin-top: 100px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    width: 420px;
+    font-weight: 200;
+}
+.cart-total-change h2{
+    margin-left: -22px;
+}
+
+.cart-total-details-change{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    color: #555;   
+}
+
+.cart-total-change hr{
+    margin: 10px 0px;
+}
+
+.cart-bottom-change button{
+    width: 200px;
+    padding: 8px;
+    background-color: orange;
+    margin-top: 10px;
+    color: white;
+    margin-left: px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+
+}
