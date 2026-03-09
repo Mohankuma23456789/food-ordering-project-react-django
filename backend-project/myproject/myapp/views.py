@@ -27,7 +27,7 @@ def login_user(request):
         user = UserProfile.objects.get(email=email, password=password)
         return Response({
             "success": True, 
-            "message": "Login Successful!",
+            "message": "User Login Successful!",
             "name": user.name
         }, status=status.HTTP_200_OK)
     except UserProfile.DoesNotExist:
@@ -42,5 +42,5 @@ def place_order(request):
     serializer = OrderSerializer(data=request.data)
     if serializer.is_valid():
         serializer.save()
-        return Response({"message":"order placed!" },status=status.HTTP_201_CREATED)
+        return Response({"message":"order placed successful!" },status=status.HTTP_201_CREATED)
         return Response(serializer.errors,status=status.HTTP_400_BAD_REQUEST)
