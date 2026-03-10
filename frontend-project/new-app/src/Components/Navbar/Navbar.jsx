@@ -11,7 +11,7 @@ export default function Navbar({setshowlogin}) {
     <>
       <header>
         <a>
-          <h2 className="logo-h1">Chef Hob</h2>
+          <h2 className="logo-h1">Chef Hub</h2>
         </a>
 
         <nav>
